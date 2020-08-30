@@ -1,0 +1,53 @@
+.sidebar{
+  overflow-y: scroll;
+left:  0%;
+    position: fixed;
+    height: 100%;
+    width: 250px;
+   
+   top: 0%;
+
+    background-color:black;
+
+}
+.sidebar a{
+
+    color:gray;
+  /* display:flex; */
+padding-left:30px ;
+  font-size: xx-small;
+  
+  text-decoration:none ;
+ 
+  
+}
+.sidebar h2{
+  text-shadow: 0.5px 0.5px whitesmoke;
+   padding-left: 25px;
+    color: white;
+    font-size: larger;
+}
+.sidebar hr{
+ position: relative;
+ margin-right: 20px;
+  margin-left:30px ;
+    top: 0%;
+  
+
+    
+border: 0.005px solid  rgb(53, 52, 52);
+}
+.sidebar a:hover{
+   color: white;
+}
+
+
+.container{
+    margin-left: 280px;
+}
+
+.contact img{
+  width:0.7em;
+  margin-left: 1.2em;
+  margin-top: 0.5em;
+}
